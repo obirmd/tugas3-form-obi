@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3 Form | Obi Ramdhani</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg">
+    <div class="container">
+        <h3>Formulir Pendaftaran Sunda Empire</h3>
+        <p>
+            Sunda Empire atau dengan nama lengkapnya Sunda Empire Earth Empire <br> adalah sebuah perkumpulan yang mendasarkan diri pada romantisisme sejarah pada masa lalu.
+        </p>
+        <br>
+        <p><b>Silahkan Isi Biodata :</b></p>
+
+        <form action="">
+            <div class="row">
+                <label for="url">Website Pribadi</label>
+                <input type="text" name="url" placeholder="https://www.sundaempire.com">
+            </div>
+
+            <div class="row">
+                <label for="namaProduk" aria-required="">Nama Lengkap</label>
+                <input type="text" placeholder="Tulis Nama Lengkap" required>
+            </div>
+
+            <div class="rowkategori">
+                <label for="kategoriProduk">Jenis Kelamin</label>
+                <select name="kategori" id="kategoriProduk">
+                    <option value="">Pilih Jenis Kelamin</option>
+                    <option value="komputer">Laki-laki</option>
+                    <option value="laptop">Perempuan</option>
+                </select>
+            </div>
+
+            <div class="rowharga">
+                <label for="harga">Donasi Member</label>
+                <input type="text" placeholder="Donasi">
+                <select name="harga" id="harga">
+                    <option value="">Rp</option>
+                    <option value="">$</option>
+                    <option value="">Euro</option>
+                </select>
+            </div>
+            <div class="kolom2">
+                <div class="row1">
+                    <label for="beratProduk">Berat Badan</label>
+                    <input type="number" placeholder="Berat">
+                    <select name="berat" id="beratProduk">
+                        <option value="Kg">Kg</option>
+                    </select>
+                </div>
+               
+                <div class="row2">
+                    <label for="ukuran">Ukuran Baju</label>
+                    <input type="number" placeholder="Lebar">
+                    <input type="number" placeholder="Tinggi">
+                    <input type="number" placeholder="Panjang">
+                    <select name="" id="ukuran">
+                        <option value="cm">Cm</option>
+                        <option value="Meter">Meter</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="rowcatatan">
+                <label for="catatan">Alamat Lengkap</label>
+                <textarea name="" id="" cols="120%" rows="4"></textarea>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="label">Anak Ke</div>
+            <div class="rowbutton">
+                <button class="kiri" >
+                    <img src="asset/tambah.svg" alt="">
+                </button>
+                <input type="text" value="1" name="jumlah">
+                <button class="kanan">
+                    <img src="asset/kurang.svg" alt="">
+                </button>
+            </div>
+
+            <div class="row">
+                <label for="negara">Negara Asal</label>
+                <select name="negara" id="negara">
+                    <option value=""></option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="inggris">Inggris</option>
+                    <option value="As">America</option>
+                    <option value="Malaysia">Malaysia</option>
+                </select>
+            </div>
+            
+            <div class="rowUpload">
+                <label for="upload">
+                    <p></p> Upload Ktp <br> 
+                    (Maks. 5.0 MB)</p>
+                    <img src="asset/tambah.svg" alt="">
+                </label>
+                <input type="file" name="upload" id="upload">
+            </div>
+
+            <div class="tombol">
+                <button class="satu">
+                    <a href="#">Daftar</a>
+                </button>
+                <button class="dua">
+                    <a href="https://www.qinews.id" target="_blank">Cek Blog</a>
+                </button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
